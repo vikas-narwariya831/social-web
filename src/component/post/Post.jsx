@@ -1,4 +1,4 @@
-import { MoreVert } from "@material-ui/icons"
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 import "./post.css"
 import { Users } from "../../dummyData"
 import { useState } from "react";
@@ -21,7 +21,7 @@ export default function Post({Posts}) {
                 <span className="postUserTime">{Posts.date}</span>
             </div>
             <div className="postTopRight">
-                <MoreVert/>
+                <MoreVertIcon/>
             </div>
         </div>
         <div className="postCenter">
